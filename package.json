@@ -20,7 +20,7 @@
     "react-tools": "~0.10.0",
     "reactify": "~0.13.1",
     "stylus": "~0.44.0",
-    "superagent": "~0.18.0",
+    "superagent": "~0.18.0"
   },
   "devDependencies": {},
   "scripts": {
