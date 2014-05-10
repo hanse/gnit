@@ -10,6 +10,8 @@ You should create a user specifically for running gnit.
 cd /home/git
 git clone git@github.com:Hanse/gnit .gnit
 cd .gnit
+mv config.example.json config.json
+npm install
 ```
 
 After changing `config.json` to fit your needs, you can run `make start` to launch the web interface at the port set by the environment variable PORT or 8123.
