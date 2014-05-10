@@ -1,6 +1,6 @@
 {
   "name": "gnit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A really simple web interface for self-hosted, single-user git repos.",
   "main": "index.js",
   "directories": {
