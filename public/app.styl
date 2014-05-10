@@ -1,0 +1,54 @@
+@import 'nib'
+
+global-reset()
+
+*
+  box-sizing border-box
+  font-smoothing antialiased
+
+body
+  max-width 700px
+  margin 0 auto
+  font-family 'Helvetica Neue', Helvetica, sans-serif
+  font-size 18px
+  line-height 2
+  padding 1.2em
+  color #444
+
+h1
+  font-size 2em
+  font-weight 700
+
+footer
+  text-align center
+  padding 20px
+
+.repos
+  li
+    padding 5px 10px
+    border-bottom 1px solid #ddd
+
+    &:last-child
+      border 0
+
+.repo-stats
+  color #777
+  text-align right
+  font-size 15px
+
+input
+  width 100%
+  padding 10px
+  margin-bottom 10px
+  border 0
+  border-bottom 2px solid #ddd
+  font-size 16px
+  font-family 'Helvetica Neue', Helvetica, sans-serif
+  outline none
+
+a
+  color #444
+  text-decoration none
+
+  &:hover
+    color #222

@@ -1,0 +1,9 @@
+{
+  "path": "/home/git",
+  "host": "mydomain.com",
+  "user": "git",
+  "login": {
+    "username": "admin",
+    "password": "demo"
+  }
+}

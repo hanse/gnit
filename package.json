@@ -1,0 +1,44 @@
+{
+  "name": "gnit",
+  "version": "0.0.1",
+  "description": "A really simple web interface for self-hosted, single-user git repos.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.2",
+    "async": "~0.8.0",
+    "browserify": "~4.1.2",
+    "envify": "~1.2.1",
+    "express": "~4.1.2",
+    "http-auth": "~2.1.7",
+    "is-git-repo": "~0.1.0",
+    "jade": "~1.3.1",
+    "nib": "~1.0.2",
+    "react": "~0.10.0",
+    "react-tools": "~0.10.0",
+    "reactify": "~0.13.1",
+    "stylus": "~0.44.0",
+    "superagent": "~0.18.0",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hanse/gnit.git"
+  },
+  "keywords": [
+    "git",
+    "interface",
+    "web"
+  ],
+  "author": "Hanse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hanse/gnit/issues"
+  },
+  "homepage": "https://github.com/Hanse/gnit"
+}
